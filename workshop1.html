@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Elai's Page</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
 <style>
         * {
@@ -17,7 +17,9 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            padding: 2rem 1rem;
             background: linear-gradient(135deg, #0d47a1 0%, #1976d2 50%, #64b5f6 100%);
+            font-family: 'Poppins', sans-serif;
         }
  
         .card {
@@ -25,24 +27,120 @@
             border: 1px solid rgba(144, 202, 249, 0.4);
             border-radius: 16px;
             padding: 3rem 4rem;
+            max-width: 650px;
+            text-align: center;
             box-shadow: 0 10px 40px rgba(0, 20, 60, 0.3);
             backdrop-filter: blur(6px);
         }
  
         h1 {
-            font-family: 'Poppins', sans-serif;
             font-size: 3rem;
             font-weight: 700;
             color: #e3f2fd;
             text-shadow: 0 2px 12px rgba(33, 150, 243, 0.6);
             margin: 0;
         }
+
+        .subtitle {
+            margin-top: 0.5rem;
+            font-size: 1rem;
+            color: #bbdefb;
+        }
+
+        .about {
+            margin-top: 2rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid rgba(144, 202, 249, 0.4);
+        }
+
+        .about h2 {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #e3f2fd;
+            margin-bottom: 0.6rem;
+        }
+
+        .about h3 {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: #bbdefb;
+            margin: 1.4rem 0 0.6rem;
+        }
+
+        .about p {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            color: #e3f2fd;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.5rem;
+        }
+
+        .skills span {
+            padding: 0.3rem 0.9rem;
+            font-size: 0.85rem;
+            color: #e3f2fd;
+            background: rgba(255, 255, 255, 0.12);
+            border: 1px solid rgba(144, 202, 249, 0.4);
+            border-radius: 999px;
+            transition: background 0.2s;
+        }
+
+        .skills span:hover {
+            background: rgba(255, 255, 255, 0.25);
+        }
+
+        .facts {
+            list-style: none;
+        }
+
+        .facts li {
+            font-size: 0.95rem;
+            line-height: 1.8;
+            color: #e3f2fd;
+        }
+
+        footer {
+            margin-top: 2rem;
+            font-size: 0.8rem;
+            color: #bbdefb;
+        }
     </style>
 </head>
 <body>
     <div class="card">
         <h1>Hello! I'm Elai ; ></h1>
+        <p class="subtitle">Computer Engineering Student</p>
+
+        <div class="about">
+            <h2>About Me</h2>
+            <p>
+                I'm a third-year Computer Engineering student at PRMSU.
+                I made this page to practice using Git for version control,
+                including branching and working with GitHub.
+            </p>
+
+            <h3>Skills</h3>
+            <div class="skills">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>PHP</span>
+                <span>Git</span>
+            </div>
+
+            <h3>Quick Facts</h3>
+            <ul class="facts">
+                <li>Currently learning: Git and GitHub</li>
+                <li>Studying at: PRMSU</li>
+                <li>Interests: Web development</li>
+            </ul>
+        </div>
+
+        <footer>Built for the Git Workshop</footer>
     </div>
 </body>
 </html>
- 
