@@ -8,3 +8,5 @@ Reflection:
 git add stages a file, meaning it tells Git which changes you want to include in the next commit. It does not save anything permanently yet. git commit actually saves those staged changes into the project's history with a message describing what was done. In short, git add prepares the changes, while git commit records them.
 
 <Sir paki show hidden items na lang po para maview iyong git folder, tysm po>
+
+This next activity is made to show how repository and branching works. It'll help us students follow through the lesson and enhance our knowledge and skills. 
